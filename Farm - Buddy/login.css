@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cont{
+    background-image: url("summer.jpg");
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.main{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.main h1{
+    font-size: 5rem;
+    letter-spacing: 2px;
+    font-family: 'Indie Flower', cursive;
+}
+
+#exampleInputEmail1{
+    width: 60%;
+    margin-left: 14rem;
+}
+#exampleInputPassword1{
+    width: 60%;
+    margin-left: 14rem;
+}
