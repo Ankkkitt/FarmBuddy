@@ -2,9 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
+a{
+  text-decoration: none;
+}
+#overflow{
+  overflow-y: hidden;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -25,6 +32,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+ 
+
 /* .............ConTACT.................... */
 #contact{
     background-color: #f5f6fa;
@@ -51,7 +60,10 @@ input, textarea{
     border-radius: 5px;;
     outline: none;
 }
-.btn{
+input:hover, textarea:hover{
+  border: 2px solid black;
+}
+#submitBtn{
     width: 80%;
     padding: 10px;
     font-size: 25px;
