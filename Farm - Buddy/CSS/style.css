@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+/* .............ConTACT.................... */
+#contact{
+    background-color: #f5f6fa;
+}
+.section-head{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input, textarea{
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;;
+    outline: none;
+}
+.btn{
+    width: 80%;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+/* .............FOOTER>............... */
+.footer{
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}

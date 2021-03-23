@@ -1,1 +1,1 @@
-# FarmerBuddy
+# FarmBuddy
