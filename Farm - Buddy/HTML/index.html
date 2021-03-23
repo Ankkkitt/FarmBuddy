@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
         <a class="navbar-brand" href="#">FarmBuddy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,7 @@
               </ul>
           </span>
           <form class="form-inline my-2 my-lg-0 ">
-            <button class="btn btn-outline-success my-2  my-sm-0" type="submit">FAQ</button>
+            <button class="btn btn-outline-success my-2  my-sm-0" type="submit"><a class="text-success" href="faq.html" target="_blank">FAQ</a></button>
           </form>
         </div>
       </nav>
@@ -52,13 +52,15 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+
+      
 <!-- ...........CROPS SECTION................. -->
 
     <div class="card-deck mt-2">
         <div class="card">
           <img class="card-img-top" src="../IMAGES/summer.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title" id="overflow">Summer Crops</h5>
+            <h4 class="card-title" id="overflow">Summer Crops</h4>
             <p class="card-text">Here u will get all the information regarding crops that grow in summer season.</p>
             <button class="btn btn-dark">Click here</button>
           </div>
@@ -66,7 +68,7 @@
         <div class="card">
           <img class="card-img-top" src="../IMAGES/winter.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title" id="overflow" >Winter Crops</h5>
+            <h4 class="card-title" id="overflow">Winter Crops</h4>
             <p class="card-text">Here u will get all the information regarding crops that grow in Winter season.</p>
             <button class="btn btn-dark">Click here</button>
           </div>
@@ -74,7 +76,7 @@
         <div class="card">
           <img class="card-img-top" src="../IMAGES/summer.jpg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title" id="overflow">Rainy Season</h5>
+            <h4 class="card-title" id="overflow">Rainy Season</h4>
             <p class="card-text">THere u will get all the information regarding crops that grow in Rainy season.</p>
             <button class="btn btn-dark">Click here</button>
           </div>
@@ -86,22 +88,24 @@
 <section id="contact">
   <h1 class="section-head">
     <span><i class="fas fa-id-card"></i></i></span>
-    <span>ASK YOUR QUESTIONS</span>
+    <span>CONTACT US</span>
   </h1>
   <form>        
-    <input type="text" name="name" id="name" placeholder="Enter your name" required>
-    <input type="email" name="email" id="email" placeholder="Enter your email" required>
-    <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter your Query" required></textarea>
-    <button class="btn btn-outline-dark mb-2">Submit</button>
+    <input type="text" class="input" name="name" id="name" placeholder="Enter your name" required>
+    <input type="email" class="input" name="email" id="email" placeholder="Enter your email" required>
+    <textarea name="desc" class="input" id="desc" cols="30" rows="10" placeholder="Enter your message or any Query you have." required></textarea>
+    <button class="btn btn-outline-dark mb-2" id="submitBtn">Submit</button>
     
 </form>
 </section>
 
 <!-- ...............FOOTER SECTION............. -->
 
-      <footer class="footer bg-dark mt-4">
-        <p>made with ❤️️  <span class="font-weight-bold">&copy FarmBuddy</span></p>
-      </footer>
+<footer class="footer bg-dark mt-4">
+  <p>made with ❤️️  <span class="font-weight-bold">&copy FarmBuddy</span>
+  <a class="ml-2" href="#navbar"><i class="fas fa-angle-up text-light"></i></a>
+  </p>
+</footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
