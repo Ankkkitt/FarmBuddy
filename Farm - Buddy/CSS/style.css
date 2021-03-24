@@ -33,6 +33,24 @@ a{
     background: #555;
   }
  
+  /* ................. Main Page .................  */
+  
+#main{
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #11998e, #38ef7d); 
+  background: linear-gradient(to right, #11998e, #38ef7d); 
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.info h2{
+  padding: 10px 0px;
+  font-size: 65px;
+}
 /* .................About Us........................ */
 #about{
   background-color: #ced6e0;
@@ -89,10 +107,110 @@ h1{
   }
 }
 
+/* ...............Team Members .................. */
+#team{
+  background-color: #ced6e0;
+}
+.team_heading{
+  width: 80%;
+  /* background-color: #2C3A47;
+  color: white; */
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  padding: 10px;
+}
+.rows{
+  background: #fff200;
+  width: 80%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 5px;
+}
+.cols{
+  flex-basis: 25%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.cols img{
+  width: 100%;
+  cursor: pointer;
+}
+.cols p{
+  margin: 20px 0px;
+}
+.team_links .fa{
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  line-height: 25px;
+  transition: transform .5s;
+}
+.team_links .fa:hover{
+  background: black;
+  color: white;
+  transform: scale(1.15);
+  /* transform: translatex(-5px); */
+}
+.cols:hover img{
+  transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 720px){
+  .rows{
+      width: 95%
+  }
+  .cols{
+      flex-basis: 50%;
+  }
+  
+  .team_heading{
+      width: 95%;
+      background-color: #2C3A47;
+      margin: 20px auto;
+      text-align: center;
+  }
+  .rows .cols:nth-child(1){
+      order: 1;  
+  }
+  
+  .rows .cols:nth-child(2){
+      order: 2;  
+  }
+
+  .rows .cols:nth-child(3){
+      order: 4;  
+  }
+
+  .rows .cols:nth-child(4){
+      order: 3;  
+  }
+  .rows .cols:nth-child(5){
+      order: 6;  
+  }
+
+  .rows .cols:nth-child(6){
+      order: 5;  
+  }
+
+  .rows .cols:nth-child(7){
+      order: 7;  
+  }
+
+  .rows .cols:nth-child(8){
+      order: 8;  
+  }
+}
 
 /* .............ConTACT.................... */
 #contact{
-    background-color: #ced6e0;
+    background-color: #ffffff;
 }
 .section-head{
     width: 100%;
