@@ -33,10 +33,66 @@ a{
     background: #555;
   }
  
+/* .................About Us........................ */
+#about{
+  background-color: #ced6e0;
+}
+h1{
+  width: 95%;
+  text-shadow: 2px 2px 2px #bdc3c7;
+  font-size: 50px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0px;
+  letter-spacing: 3px;
+}
+.row{
+  /* background: #2f3640; */
+  width: 95%;
+  /* color: white; */
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.col{
+  margin: 20px 0px;
+  flex-basis: 50%;
+}
+.col img{
+  width: 90%;
+  height: 90%;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.col h2{
+  font-size: 40px;
+  padding: 10px 0px;
+}
+.col p{
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 900px){
+  .row{
+      width: 95%;
+      margin: 0px 40px;
+  }
+  .col{
+      flex-basis: 100%;
+  }
+}
+
 
 /* .............ConTACT.................... */
 #contact{
-    background-color: #f5f6fa;
+    background-color: #ced6e0;
 }
 .section-head{
     width: 100%;
