@@ -10,64 +10,72 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="../CSS/register.css">
-  <title>Login - FarmBuddy</title>
+  <script src="https://kit.fontawesome.com/9e8524743e.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="../IMAGES/tractor.png" type="image/icon type">
+  <title>Sing Up | FarmBuddy</title>
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">FarmBuddy</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+    <a class="navbar-brand" href="index.html">FarmBuddy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link active" href="#">Crops <span class="sr-only">(current)</span></a>
-        <a class="nav-link active" href="#">About Us <span class="sr-only">(current)</span></a>
-        <a class="nav-link active" href="#">Contact <span class="sr-only">(current)</span></a>
-      </div>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        
+      </ul>
+      <span class="navbar-text">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#crops">Crops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+      </span>
+      <form class="form-inline my-2 my-lg-0 ">
+        <button class="btn btn-outline-success my-2  my-sm-0" type="submit"><a class="text-success" href="faq.html" target="_blank">FAQ</a></button>
+      </form>
     </div>
   </nav>
+  
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 col-xl-9 mx-auto">
-        <div class="card card-signin flex-row my-5">
-          <div class="card-img-left d-none d-md-flex">
-            <!-- Background image for card set in CSS! -->
-          </div>
+      <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+        <div class="card card-signin my-5">
           <div class="card-body">
-            <h5 class="card-title text-center">Register</h5>
+            <h1 class="card-title text-center">Sign Up</h1>
             <form class="form-signin">
-              <div class="form-label-group">
-                <input type="text" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
-                <label for="inputUserame">Username</label>
+              <div class="form-label-group my-4">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputEmail"><i class="fas fa-envelope mr-2"></i> Email address</label>
               </div>
-
-              <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required>
-                <label for="inputEmail">Email address</label>
-              </div>
-
-              <hr>
 
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <label for="inputPassword">Password</label>
+                <label for="inputPassword"> <i class="fas fa-unlock-alt"></i>&nbsp Password</label>
               </div>
-
+              
               <div class="form-label-group">
                 <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Password" required>
-                <label for="inputConfirmPassword">Confirm password</label>
+                <label for="inputConfirmPassword"><i class="fas fa-key"></i>&nbsp Confirm password</label>
+
               </div>
 
-              <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Register</button>
-              <a class="d-block text-center mt-2 small" href="login.html">Sign In</a>
-              <hr class="my-4">
-              <button class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i
-                  class="fab fa-google mr-2"></i> Sign up with Google</button>
-              <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i
-                  class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button>
+              <button class="btn btn-lg btn-outline-dark btn-block text-uppercase" type="submit">Register</button>
+              <p class="text-center mt-2">Already hav an account <a href="login.html">Sign In</a> </p>
+              
             </form>
           </div>
         </div>
@@ -76,7 +84,11 @@
   </div>
 
 
-  </div>
+
+
+
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

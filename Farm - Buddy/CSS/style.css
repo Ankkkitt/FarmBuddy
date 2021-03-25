@@ -6,8 +6,13 @@
     overflow-x: hidden;
 }
 
-a{
+.at{
+  color: white;
   text-decoration: none;
+}
+.at:hover{
+  text-decoration: none;
+  color: white;
 }
 #overflow{
   overflow-y: hidden;
@@ -50,6 +55,9 @@ a{
 .info h2{
   padding: 10px 0px;
   font-size: 65px;
+}
+.main_btn{
+   letter-spacing: 2px;
 }
 /* .................About Us........................ */
 #about{
