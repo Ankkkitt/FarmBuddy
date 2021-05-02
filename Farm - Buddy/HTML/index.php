@@ -178,7 +178,7 @@ if($re){
           </div>
         </div>
         <div class="card border border-dark">
-          <img class="card-img-top" src="../IMAGES/summer.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../IMAGES/main.jpg" alt="Card image cap">
           <div class="card-body">
             <h4 class="card-title" id="overflow">Rainy Season</h4>
             <p class="card-text">THere u will get all the information regarding crops that grow in Rainy season.</p>
@@ -200,12 +200,12 @@ if($re){
       <div class="team_links">
         <a href="https://www.linkedin.com/in/ankit-upadhyay-25601415b/"><i class="fa fa-linkedin " id="overflow"></i></a>
         <a href="https://github.com/Ankkkitt"><i class="fa fa-github" id="overflow"></i></a>
-        <i class="fa fa-twitter" id="overflow"></i>
+        <i class="fa fa-youtube" id="overflow"></i>
       </div>
     </div>
 
     <div class="cols">
-      <img src="../IMAGES/loukik.png" alt="" >
+      <img src="../IMAGES/loukik-2.jpeg" alt="" >
     </div>
 
     <div class="cols">
