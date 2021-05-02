@@ -25,14 +25,14 @@ if(isset($_POST['name'])){
 
   $re = mysqli_query($conn, $sql);
 
-  if($re){
+if($re){
 
-    ?>
+  ?>
     <script>
       alert("Your data has been submitted successfully to FarmBuddy !!");
+      window.location.href='index.php';
     </script>
   <?php
-    header("location: index.php");
     
   }else{
     echo "ueiwgvvvvvvvvvvfbwebfivweugdslcegjddddddddd";

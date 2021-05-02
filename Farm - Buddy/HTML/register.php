@@ -56,9 +56,9 @@
           ?>
             <script>
               alert("You have successfully registered on farmBuddy");
+              window.location.href='login.php';
             </script>
           <?php
-          header('location: login.php');
         }else{
           ?>
             <script>
@@ -93,25 +93,6 @@
       <ul class="navbar-nav mr-auto">
         
       </ul>
-      <span class="navbar-text">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#crops">Crops</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-      </span>
       <form class="form-inline my-2 my-lg-0 ">
         <button class="btn btn-outline-success my-2  my-sm-0" type="submit"><a class="text-success" href="faq.html" target="_blank">FAQ</a></button>
       </form>
